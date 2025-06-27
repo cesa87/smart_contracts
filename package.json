@@ -1,0 +1,33 @@
+{
+  "name": "crynk-smart-contracts",
+  "version": "1.0.0",
+  "description": "Crynk Payment Gateway Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "node:fork": "hardhat node --network mainnet_fork",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network mainnet",
+    "deploy:fork": "hardhat run scripts/deploy-fork.js --network localhost",
+    "verify:sepolia": "hardhat verify --network sepolia",
+    "verify:mainnet": "hardhat verify --network mainnet"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "smart-contracts",
+    "payment",
+    "escrow"
+  ],
+  "author": "Crynk",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^4.9.5",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.0"
+  }
+}
+ 

@@ -1,0 +1,17 @@
+{
+  "network": "localhost",
+  "chainId": "31337",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "timestamp": "2025-06-24T11:53:23.965Z",
+  "contracts": {
+    "CrynkPaymentSplitter": {
+      "address": "0xbc71F5687CFD36f64Ae6B4549186EE3A6eE259a4",
+      "feeWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "feeRate": "100",
+      "usdcAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    }
+  },
+  "transactionHashes": {
+    "splitter": "0xa059dbd7609131bfa30b35c09dbe67348bd23f1dc1931024468e8736dac210ca"
+  }
+}

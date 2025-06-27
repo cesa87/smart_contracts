@@ -1,0 +1,6 @@
+cd smart-contracts
+Ctrl+C
+exit
+que
+const provider = ethers.getDefaultProvider(); await provider.getCode('0x93B800CD7ACdcA13754624D4B1A2760A86bE0D1f')
+ethers.getCode('0x93B800CD7ACdcA13754624D4B1A2760A86bE0D1f')

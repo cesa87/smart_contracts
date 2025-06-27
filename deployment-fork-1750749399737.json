@@ -1,0 +1,17 @@
+{
+  "network": "hardhat_fork",
+  "chainId": "31337",
+  "paymentContract": "0xaE2abbDE6c9829141675fA0A629a675badbb0d9F",
+  "escrowContract": "0x8B342f4Ddcc71Af65e4D2dA9CD00cc0E945cFD12",
+  "feeWallet": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "testMerchant": {
+    "id": 123,
+    "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  "tokens": {
+    "USDC": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  "deployedAt": "2025-06-24T07:16:39.735Z",
+  "blockNumber": 19000015
+}

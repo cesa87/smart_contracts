@@ -1,0 +1,17 @@
+{
+  "network": "sepolia",
+  "chainId": "11155111",
+  "deployer": "0x8167Ed00EA8Fb5C5F7BD529ecE3fB1eeFF9Fd8cE",
+  "timestamp": "2025-06-27T11:49:28.667Z",
+  "contracts": {
+    "CrynkPaymentSplitter": {
+      "address": "0x0c7968e1b24A93803cDc03A0Ae9A60711acE7fb9",
+      "feeWallet": "0x8167Ed00EA8Fb5C5F7BD529ecE3fB1eeFF9Fd8cE",
+      "feeRate": "100",
+      "usdcAddress": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+    }
+  },
+  "transactionHashes": {
+    "splitter": "0x3934f99ac0e49c0bd2504159e4281172a5fccf8d9fd1b20ce246c00442b2400d"
+  }
+}
