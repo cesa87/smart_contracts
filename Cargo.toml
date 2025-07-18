@@ -1,0 +1,9 @@
+[workspace]
+members = ["payment-splitter"]
+resolver = "2"
+
+[workspace.dependencies]
+soroban-sdk = "21.0.1"
+
+[patch.crates-io]
+base64ct = { path = "vendor/" }
