@@ -1,0 +1,10 @@
+[package]
+name = "base64ct"
+version = "1.8.0"
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Pure Rust base64 encoder/decoder that avoids allocations."
+repository = "https://github.com/RustCrypto/formats"
+readme = "README.md"
+
+[dependencies]
