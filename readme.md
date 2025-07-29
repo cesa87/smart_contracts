@@ -1,11 +1,5 @@
-# Mainnet Deployment - NEW CONTRACT DEPLOYED ✅
+# Mainnet Deployment
 
-## CRITICAL FIX APPLIED - Contract Now Works with USDC!
-
-### Issue Resolution
-The original contract was failing with "not a contract address" because it was trying to use the classic USDC asset issuer address (`GA5ZSEJY...`) instead of the Soroban contract address for USDC.
-
-### Solution Applied
 
 1. **Derived USDC Soroban Contract Address**:
    ```bash
@@ -17,7 +11,7 @@ The original contract was failing with "not a contract address" because it was t
    ```bash
    stellar contract deploy --wasm target/wasm32-unknown-unknown/release/crynk_payment_splitter.wasm --source SABFSYS7LANDNQB2WWUKHFJBHZDYIOHAJJUKXBSGWUWYLHMML6EXB77V --network mainnet --salt 123456
    ```
-   **NEW CONTRACT ID**: `CC2SOSC6WXLPEZKVZ2QWO3SOJJAYON4VEJGWOJPCBSUQ7Y5PP67G5MZ4`
+   ** CONTRACT ID**: `CC2SOSC6WXLPEZKVZ2QWO3SOJJAYON4VEJGWOJPCBSUQ7Y5PP67G5MZ4`
 
 3. **Initialized with Correct Token Address**:
    ```bash
@@ -84,6 +78,19 @@ stellar contract invoke \
   get_admin
 ```
 
+
+
+## Contract Functions
+
+The deployed contract supports:
+
+- `split_payment`: Percentage-based fee splitting
+- `split_payment_fixed`: Fixed amount fee splitting  
+- `get_fee_wallet`: Returns the fee wallet address
+- `get_platform_fee_rate`: Returns the platform fee rate
+- `get_payment`: Get payment details by ID
+- `get_payment_count`: Get total payment count
+
 ## 📋 Configuration Summary
 
 - **Network**: Stellar Mainnet
@@ -92,6 +99,6 @@ stellar contract invoke \
 - **Admin Wallet**: `GASLZGE5HZXAOCVTVSLNFX44P53MT6BIJ4ZVB5WTOA4QTFMMGV27NEWE`
 - **Platform Fee**: 1% (100 basis points)
 
-## 🎯 Status: LIVE ON MAINNET! 🎯
+##  Status: LIVE ON MAINNET! 
 
 The payment system is now configured to use the mainnet contract for all USDC payments and cross-chain swaps. 
